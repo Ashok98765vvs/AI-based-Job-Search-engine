@@ -1,0 +1,109 @@
+2026-05-13 20:22:02,730 | INFO    | jobintel | Starting parallel scrape with 15 keywords, 0 extra URLs
+2026-05-13 20:22:02,769 | INFO    | jobintel | Adzuna keys not set — skipping.
+2026-05-13 20:22:03,012 | INFO    | jobintel | remoteok 98 jobs
+2026-05-13 20:22:03,070 | INFO    | jobintel | greenhouse[airbnb] 203 jobs
+2026-05-13 20:22:03,148 | INFO    | jobintel | greenhouse[stripe] 370 jobs
+2026-05-13 20:22:03,338 | INFO    | jobintel | greenhouse[robinhood] 127 jobs
+2026-05-13 20:22:03,773 | INFO    | jobintel | greenhouse[figma] 135 jobs
+2026-05-13 20:22:04,311 | INFO    | jobintel | greenhouse[instacart] 121 jobs
+2026-05-13 20:22:04,969 | INFO    | jobintel | lever[netflix] 0 jobs
+2026-05-13 20:22:05,274 | INFO    | jobintel | lever[attentive] 0 jobs
+2026-05-13 20:22:06,372 | WARNING | jobintel | fetch_json failed for https://api.lever.co/v0/postings/ramp?mode=json: Cannot send a request, as the client has been closed.
+2026-05-13 20:22:06,794 | INFO    | jobintel | ashby[openai] 539 jobs
+2026-05-13 20:22:06,795 | WARNING | jobintel | fetch_json failed for https://api.lever.co/v0/postings/benchling?mode=json: Cannot send a request, as the client has been closed.
+2026-05-13 20:22:07,134 | WARNING | jobintel | fetch_json failed for https://arbeitnow.com/api/job-board-api: RetryError[<Future at 0x116e29910 state=finished raised HTTPStatusError>]
+2026-05-13 20:22:07,831 | INFO    | jobintel | ashby[vanta] 87 jobs
+2026-05-13 20:22:07,873 | WARNING | jobintel | fetch_json failed for https://boards-api.greenhouse.io/v1/boards/plaid/jobs?content=true: RetryError[<Future at 0x116b020a0 state=finished raised HTTPStatusError>]
+2026-05-13 20:22:08,151 | INFO    | jobintel | ashby[posthog] 14 jobs
+2026-05-13 20:22:08,855 | INFO    | jobintel | ashby[ramp] 108 jobs
+2026-05-13 20:22:08,905 | WARNING | jobintel | fetch_json failed for https://boards-api.greenhouse.io/v1/boards/doordash/jobs?content=true: RetryError[<Future at 0x1166c2070 state=finished raised HTTPStatusError>]
+2026-05-13 20:22:09,111 | WARNING | jobintel | fetch_json failed for https://boards-api.greenhouse.io/v1/boards/coinbase/jobs?content=true: RetryError[<Future at 0x116fc8fa0 state=finished raised HTTPStatusError>]
+2026-05-13 20:22:10,339 | INFO    | jobintel | ashby[linear] 0 jobs
+2026-05-13 20:22:11,258 | INFO    | jobintel | remotive 180 jobs
+2026-05-13 20:22:11,258 | WARNING | jobintel | Scraper error: year 55205 is out of range
+2026-05-13 20:22:11,258 | INFO    | jobintel | Total fetched (pre-filter): 1814
+2026-05-13 20:22:11,264 | INFO    | jobintel | Pruned 0 expired jobs (older than 24h)
+2026-05-13 20:22:11,289 | INFO    | jobintel | Persist summary: {'fetched': 1814, 'inserted': 67, 'updated': 0, 'skipped_stale': 1747, 'pruned_expired': 0}
+2026-05-13 20:25:01,316 | INFO    | jobintel | Starting parallel scrape with 16 keywords, 0 extra URLs
+2026-05-13 20:25:01,350 | INFO    | jobintel | Adzuna keys not set — skipping.
+2026-05-13 20:25:01,547 | INFO    | jobintel | remoteok 98 jobs
+2026-05-13 20:25:01,718 | INFO    | jobintel | greenhouse[airbnb] 203 jobs
+2026-05-13 20:25:01,769 | INFO    | jobintel | greenhouse[stripe] 370 jobs
+2026-05-13 20:25:01,919 | INFO    | jobintel | greenhouse[robinhood] 127 jobs
+2026-05-13 20:25:02,493 | INFO    | jobintel | greenhouse[figma] 135 jobs
+2026-05-13 20:25:02,675 | INFO    | jobintel | greenhouse[instacart] 121 jobs
+2026-05-13 20:25:03,355 | INFO    | jobintel | lever[netflix] 0 jobs
+2026-05-13 20:25:03,684 | INFO    | jobintel | lever[attentive] 0 jobs
+2026-05-13 20:25:04,682 | INFO    | jobintel | ashby[openai] 539 jobs
+2026-05-13 20:25:04,764 | INFO    | jobintel | ashby[ramp] 108 jobs
+2026-05-13 20:25:04,933 | WARNING | jobintel | fetch_json failed for https://boards-api.greenhouse.io/v1/boards/doordash/jobs?content=true: RetryError[<Future at 0x117219040 state=finished raised HTTPStatusError>]
+2026-05-13 20:25:05,687 | WARNING | jobintel | fetch_json failed for https://api.lever.co/v0/postings/ramp?mode=json: Cannot send a request, as the client has been closed.
+2026-05-13 20:25:05,823 | WARNING | jobintel | fetch_json failed for https://api.lever.co/v0/postings/benchling?mode=json: Cannot send a request, as the client has been closed.
+2026-05-13 20:25:06,364 | WARNING | jobintel | fetch_json failed for https://arbeitnow.com/api/job-board-api: RetryError[<Future at 0x1163f7b80 state=finished raised HTTPStatusError>]
+2026-05-13 20:25:06,432 | WARNING | jobintel | fetch_json failed for https://boards-api.greenhouse.io/v1/boards/coinbase/jobs?content=true: RetryError[<Future at 0x1165cf670 state=finished raised HTTPStatusError>]
+2026-05-13 20:25:06,595 | WARNING | jobintel | fetch_json failed for https://boards-api.greenhouse.io/v1/boards/plaid/jobs?content=true: RetryError[<Future at 0x1165d6040 state=finished raised HTTPStatusError>]
+2026-05-13 20:25:06,868 | INFO    | jobintel | ashby[posthog] 14 jobs
+2026-05-13 20:25:06,998 | INFO    | jobintel | ashby[linear] 0 jobs
+2026-05-13 20:25:10,213 | INFO    | jobintel | remotive 192 jobs
+2026-05-13 20:25:16,200 | INFO    | jobintel | ashby[vanta] 87 jobs
+2026-05-13 20:25:16,201 | WARNING | jobintel | Scraper error: year 55205 is out of range
+2026-05-13 20:25:16,201 | INFO    | jobintel | Total fetched (pre-filter): 1814
+2026-05-13 20:25:16,202 | INFO    | jobintel | Pruned 0 expired jobs (older than 24h)
+2026-05-13 20:25:16,212 | INFO    | jobintel | Persist summary: {'fetched': 1814, 'inserted': 0, 'updated': 67, 'skipped_stale': 1747, 'pruned_expired': 0}
+2026-05-13 20:26:50,736 | INFO    | jobintel | Starting parallel scrape with 15 keywords, 0 extra URLs
+2026-05-13 20:26:50,764 | INFO    | jobintel | Adzuna keys not set — skipping.
+2026-05-13 20:26:50,934 | INFO    | jobintel | remoteok 98 jobs
+2026-05-13 20:26:51,115 | INFO    | jobintel | greenhouse[airbnb] 203 jobs
+2026-05-13 20:26:51,166 | INFO    | jobintel | greenhouse[stripe] 370 jobs
+2026-05-13 20:26:51,274 | INFO    | jobintel | greenhouse[robinhood] 127 jobs
+2026-05-13 20:26:51,882 | INFO    | jobintel | greenhouse[figma] 135 jobs
+2026-05-13 20:26:52,114 | INFO    | jobintel | greenhouse[instacart] 121 jobs
+2026-05-13 20:26:53,338 | INFO    | jobintel | lever[attentive] 0 jobs
+2026-05-13 20:26:53,777 | WARNING | jobintel | fetch_json failed for https://api.lever.co/v0/postings/ramp?mode=json: Cannot send a request, as the client has been closed.
+2026-05-13 20:26:54,199 | INFO    | jobintel | ashby[openai] 539 jobs
+2026-05-13 20:26:54,200 | WARNING | jobintel | fetch_json failed for https://api.lever.co/v0/postings/netflix?mode=json: Cannot send a request, as the client has been closed.
+2026-05-13 20:26:55,184 | INFO    | jobintel | ashby[vanta] 87 jobs
+2026-05-13 20:26:55,469 | INFO    | jobintel | ashby[posthog] 14 jobs
+2026-05-13 20:26:55,671 | INFO    | jobintel | ashby[linear] 0 jobs
+2026-05-13 20:26:55,845 | WARNING | jobintel | fetch_json failed for https://boards-api.greenhouse.io/v1/boards/doordash/jobs?content=true: RetryError[<Future at 0x1173f4250 state=finished raised HTTPStatusError>]
+2026-05-13 20:26:55,995 | WARNING | jobintel | fetch_json failed for https://api.lever.co/v0/postings/benchling?mode=json: Cannot send a request, as the client has been closed.
+2026-05-13 20:26:56,534 | WARNING | jobintel | fetch_json failed for https://arbeitnow.com/api/job-board-api: RetryError[<Future at 0x116798280 state=finished raised HTTPStatusError>]
+2026-05-13 20:26:56,647 | WARNING | jobintel | fetch_json failed for https://boards-api.greenhouse.io/v1/boards/plaid/jobs?content=true: RetryError[<Future at 0x117270220 state=finished raised HTTPStatusError>]
+2026-05-13 20:26:56,874 | WARNING | jobintel | fetch_json failed for https://boards-api.greenhouse.io/v1/boards/coinbase/jobs?content=true: RetryError[<Future at 0x1167210d0 state=finished raised HTTPStatusError>]
+2026-05-13 20:26:59,219 | INFO    | jobintel | remotive 180 jobs
+2026-05-13 20:27:00,695 | INFO    | jobintel | ashby[ramp] 108 jobs
+2026-05-13 20:27:00,696 | WARNING | jobintel | Scraper error: year 55205 is out of range
+2026-05-13 20:27:00,696 | INFO    | jobintel | Total fetched (pre-filter): 1814
+2026-05-13 20:27:00,698 | INFO    | jobintel | Pruned 0 expired jobs (older than 24h)
+2026-05-13 20:27:00,713 | INFO    | jobintel | Persist summary: {'fetched': 1814, 'inserted': 0, 'updated': 67, 'skipped_stale': 1747, 'pruned_expired': 0}
+2026-05-13 20:48:42,866 | INFO    | jobintel | Starting parallel scrape — 7 sources, 2 keywords, 0 extra URLs
+2026-05-13 20:48:42,884 | INFO    | jobintel | Adzuna keys not set — skipping.
+2026-05-13 20:48:43,096 | INFO    | jobintel | remoteok 98 jobs
+2026-05-13 20:48:43,168 | INFO    | jobintel | greenhouse[airbnb] 234 jobs
+2026-05-13 20:48:43,267 | INFO    | jobintel | greenhouse[stripe] 486 jobs
+2026-05-13 20:48:43,438 | INFO    | jobintel | greenhouse[robinhood] 138 jobs
+2026-05-13 20:48:43,867 | INFO    | jobintel | greenhouse[figma] 158 jobs
+2026-05-13 20:48:44,053 | INFO    | jobintel | greenhouse[instacart] 121 jobs
+2026-05-13 20:48:44,696 | INFO    | jobintel | lever[netflix] 0 jobs
+2026-05-13 20:48:45,022 | INFO    | jobintel | lever[attentive] 0 jobs
+2026-05-13 20:48:46,462 | INFO    | jobintel | ashby[openai] 665 jobs
+2026-05-13 20:48:46,555 | WARNING | jobintel | fetch_json failed for https://api.lever.co/v0/postings/benchling?mode=json: RetryError[<Future at 0x10c39edc0 state=finished raised HTTPStatusError>]
+2026-05-13 20:48:46,555 | WARNING | jobintel | lever[benchling] invalid payload
+2026-05-13 20:48:46,913 | WARNING | jobintel | fetch_json failed for https://api.lever.co/v0/postings/ramp?mode=json: RetryError[<Future at 0x10c39e1c0 state=finished raised HTTPStatusError>]
+2026-05-13 20:48:46,914 | WARNING | jobintel | lever[ramp] invalid payload
+2026-05-13 20:48:46,915 | WARNING | jobintel | lever[palantir] failed: 'list' object has no attribute 'strip'
+2026-05-13 20:48:47,628 | INFO    | jobintel | ashby[linear] 23 jobs
+2026-05-13 20:48:47,741 | INFO    | jobintel | remotive 38 jobs
+2026-05-13 20:48:48,293 | WARNING | jobintel | fetch_json failed for https://boards-api.greenhouse.io/v1/boards/doordash/jobs?content=true: RetryError[<Future at 0x10c460ac0 state=finished raised HTTPStatusError>]
+2026-05-13 20:48:48,293 | WARNING | jobintel | greenhouse[doordash] invalid payload
+2026-05-13 20:48:48,511 | INFO    | jobintel | ashby[posthog] 15 jobs
+2026-05-13 20:48:48,571 | WARNING | jobintel | fetch_json failed for https://arbeitnow.com/api/job-board-api: RetryError[<Future at 0x10cbb6430 state=finished raised HTTPStatusError>]
+2026-05-13 20:48:48,571 | WARNING | jobintel | arbeitnow invalid payload
+2026-05-13 20:48:48,930 | WARNING | jobintel | fetch_json failed for https://boards-api.greenhouse.io/v1/boards/plaid/jobs?content=true: RetryError[<Future at 0x10c38e550 state=finished raised HTTPStatusError>]
+2026-05-13 20:48:48,930 | WARNING | jobintel | greenhouse[plaid] invalid payload
+2026-05-13 20:48:49,136 | WARNING | jobintel | fetch_json failed for https://boards-api.greenhouse.io/v1/boards/coinbase/jobs?content=true: RetryError[<Future at 0x10c37b340 state=finished raised HTTPStatusError>]
+2026-05-13 20:48:49,136 | WARNING | jobintel | greenhouse[coinbase] invalid payload
+2026-05-13 20:48:50,681 | INFO    | jobintel | ashby[vanta] 142 jobs
+2026-05-13 20:48:52,029 | INFO    | jobintel | ashby[ramp] 113 jobs
+2026-05-13 20:48:52,094 | INFO    | jobintel | Total fetched (pre-dedup): 2212
+2026-05-13 20:48:52,241 | INFO    | jobintel | Total after dedup: 2212
